@@ -1,1 +1,112 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetsApp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="top">
+        <div class="budget">
+            <div class="budget-title">Avilable Budget in <span class="budget-title-month">%Month%</span></div>
+
+            <div class="budget-value">+ 2,345.64</div>
+
+            <div class="budget-income clearfix">
+                <div class="budget-income-text">Income</div>
+                <div class="right">
+                    <div class="budget-income-value">+4,300.00</div>
+                    <div class="budget-income-percentage">&nbsp</div>
+                </div>
+            </div>
+
+            <div class="budget-expenses clearfix">
+                <div class="budget-expenses-text">Expanses</div>
+                <div class="right clearfix">
+                    <div class="budget-expenses-value">+4,300.00</div>
+                    <div class="budget-expenses-percentage">&nbsp</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bottom">
+        <div class="add">
+            <div class="add-container">
+                <select class="add-type">
+                    <option value="inc" selected>+</option>
+                    <option value="exp">-</option>
+                </select>
+                <input type="text" class="add-description" placeholder="Add Description">
+                <input type="number" class="add-value" placeholder="Value">
+                <button class="add-btn"><i class="far fa-check-circle"></i></button>
+            </div>
+        </div>
+
+        <div class="container clearfix">
+            <div class="income">
+                <h2 class="income-title">Income</h2>
+                
+                <div class="income-list">
+
+
+                    <!-- <div class="item clearfix" id="income-0">
+                        <div class="item-description">Salary</div>
+                        <div class="right clearfix">
+                            <div class="item-value">+2,100.00</div>
+                            <div class="item-delete-btn"><button classs="item-delete-btn"><i class="far fa-times-circle"></i></button></div>
+                        </div>
+                    </div>
+
+                    <div class="item clearfix" id="income-1">
+                        <div class="item-description">Sold Car</div>
+                        <div class="right clearfix">
+                            <div class="item-value">+2,500.00</div>
+                            <div class="item-delete-btn"><button classs="item-delete-btn"><i class="far fa-times-circle"></i></button></div>
+                        </div>
+                    </div>-->
+
+                </div>
+            </div>
+            
+
+            <div class="expenses">
+                <h2 class="expenses-title">Expense</h2>
+
+                <div class="expenses-list">
+
+
+                    <!-- <div class="item clearfix" id="expense-0">
+                        <div class="item-description">Apartment rent</div>
+                        <div class="right clearfix">
+                            <div class="item-value">+2,100.00</div>
+                            <div class="item-percentage">21%</div>
+                            <div class="item-delete-btn"><button><i class="far fa-times-circle"></i></button></div>
+                        </div>
+                    </div>
+
+                    <div class="item clearfix" id="expense-1">
+                        <div class="item-description">Grocery shopping</div>
+                        <div class="right clearfix">
+                            <div class="item-value">+2,500.00</div>
+                            <div class="item-percentage">21%</div>
+                            <div class="item-delete-btn"><button classs="item-delete-btn"><i class="far fa-times-circle"></i></button></div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
