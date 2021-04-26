@@ -39,7 +39,7 @@
   
   .top {
     height: 40vh;
-    background-image: linear-gradient(to right, #fdc830e5, #f37435e5),url(back.png);
+    background-image: linear-gradient(to right, #fdc830e5, #f37435e5),url(back.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
